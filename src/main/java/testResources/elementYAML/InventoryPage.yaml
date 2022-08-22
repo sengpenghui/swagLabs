@@ -1,0 +1,15 @@
+filter:
+  type: className
+  value: product_sort_container
+backpackTitle:
+  type: id
+  value: item_4_title_link
+backpackPrice:
+  type: xpath
+  value: '//*[@id="add-to-cart-sauce-labs-backpack"]/preceding-sibling::div'
+backpackCart:
+  type: id
+  value: add-to-cart-sauce-labs-backpack
+backpackRemove:
+  type: css
+  value: '#remove-sauce-labs-backpack'

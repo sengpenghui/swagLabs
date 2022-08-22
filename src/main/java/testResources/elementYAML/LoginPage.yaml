@@ -1,0 +1,9 @@
+username:
+  type: id
+  value: user-name
+password:
+  type: id
+  value: password
+loginButton:
+  type: name
+  value: login-button
