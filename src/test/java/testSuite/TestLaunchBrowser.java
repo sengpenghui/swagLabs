@@ -5,11 +5,14 @@ import framework.CaptureScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import testDate.LoginPageData;
 import workflow.WorkflowInventoryPage;
 import workflow.WorkflowLoginPage;
 
 import java.io.IOException;
+import java.util.Iterator;
 
 public class TestLaunchBrowser {
     public WebDriver driver;
@@ -27,7 +30,13 @@ public class TestLaunchBrowser {
         workflowInventoryPage = new WorkflowInventoryPage(driver);
     }
 
-    @Test
+//    @DataProvider(name = "login")
+//    public Object[][] loginParameters(){
+//        LoginPageData loginPageData = new LoginPageData();
+//        return loginPageData.getParameters();
+//    }
+
+    @Test (dataProvider = "login")
     public void openSwagLabs(){
         workflowLoginPage.loginInput();
         workflowLoginPage.loginSubmit();

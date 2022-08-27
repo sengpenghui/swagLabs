@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-21T14:12:01Z" name="Suite1" finished-at="2022-08-21T14:12:27Z" duration-ms="26015">
+  <suite started-at="2022-08-23T12:07:23Z" name="Suite1" finished-at="2022-08-23T12:08:01Z" duration-ms="37922">
     <groups>
     </groups>
-    <test started-at="2022-08-21T14:12:01Z" name="swagLabs" finished-at="2022-08-21T14:12:27Z" duration-ms="26015">
+    <test started-at="2022-08-23T12:07:23Z" name="swagLabs" finished-at="2022-08-23T12:08:01Z" duration-ms="37922">
       <class name="testSuite.TestLaunchBrowser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testSuite.TestLaunchBrowser@4bb4de6a]" started-at="2022-08-21T14:12:01Z" name="setUp" finished-at="2022-08-21T14:12:20Z" duration-ms="18352" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testSuite.TestLaunchBrowser@1f021e6c]" started-at="2022-08-23T12:07:23Z" name="setUp" finished-at="2022-08-23T12:07:52Z" duration-ms="29193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openSwagLabs()[pri:0, instance:testSuite.TestLaunchBrowser@4bb4de6a]" started-at="2022-08-21T14:12:20Z" name="openSwagLabs" finished-at="2022-08-21T14:12:20Z" duration-ms="728" status="PASS">
+        <test-method signature="openSwagLabs()[pri:0, instance:testSuite.TestLaunchBrowser@1f021e6c]" started-at="2022-08-23T12:07:52Z" name="openSwagLabs" finished-at="2022-08-23T12:07:53Z" duration-ms="1090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSwagLabs -->
-        <test-method signature="selectCargo()[pri:0, instance:testSuite.TestLaunchBrowser@4bb4de6a]" started-at="2022-08-21T14:12:20Z" name="selectCargo" finished-at="2022-08-21T14:12:21Z" duration-ms="685" status="PASS">
+        <test-method signature="selectCargo()[pri:0, instance:testSuite.TestLaunchBrowser@1f021e6c]" started-at="2022-08-23T12:07:53Z" name="selectCargo" finished-at="2022-08-23T12:07:54Z" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCargo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuite.TestLaunchBrowser@4bb4de6a]" started-at="2022-08-21T14:12:21Z" name="tearDown" finished-at="2022-08-21T14:12:27Z" duration-ms="6213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuite.TestLaunchBrowser@1f021e6c]" started-at="2022-08-23T12:07:54Z" name="tearDown" finished-at="2022-08-23T12:08:01Z" duration-ms="7157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

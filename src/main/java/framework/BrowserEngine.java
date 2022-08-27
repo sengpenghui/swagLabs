@@ -22,8 +22,8 @@ public class BrowserEngine{
 
     public void initConfigData() throws IOException {
         Properties p = new Properties();
-        File f = new File("src\\testConfig\\config.properties");
-        InputStream ips = new FileInputStream("src\\testConfig\\config.properties");
+        File f = new File("src\\main\\resources\\config.properties");
+        InputStream ips = new FileInputStream("src\\main\\resources\\config.properties");
         p.load(ips);
 
 //        Logger.Output(LogType.LogTypeName.INFO, "Start to select browser name from properties file");

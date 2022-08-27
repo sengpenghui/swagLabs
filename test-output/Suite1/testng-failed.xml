@@ -5,6 +5,7 @@
     <classes>
       <class name="testSuite.TestLaunchBrowser">
         <methods>
+          <include name="openSwagLabs"/>
           <include name="setUp"/>
           <include name="selectCargo"/>
           <include name="tearDown"/>
