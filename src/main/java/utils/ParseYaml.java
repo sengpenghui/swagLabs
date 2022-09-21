@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
+import java.util.List;
 
 public class ParseYaml {
     public WebDriver driver;
@@ -57,5 +58,10 @@ public class ParseYaml {
         String type = ml.get(key).get("type");
         String value = ml.get(key).get("value");
         return driver.findElement(this.getBy(type, value));
+    }
+    public List<WebElement> getElements(String key){
+        String type = ml.get(key).get("type");
+        String value = ml.get(key).get("value");
+        return driver.findElements(this.getBy(type, value));
     }
 }

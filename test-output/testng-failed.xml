@@ -8,6 +8,7 @@
           <include name="openSwagLabs"/>
           <include name="setUp"/>
           <include name="selectCargo"/>
+          <include name="AddToCarAndCheckout"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testSuite.TestLaunchBrowser -->

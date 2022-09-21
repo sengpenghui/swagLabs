@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
                     </span>
                     <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testSuite.TestLaunchBrowser" class="method navigator-link" hash-for-method="AddToCarAndCheckout">AddToCarAndCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite1" title="testSuite.TestLaunchBrowser" class="method navigator-link" hash-for-method="openSwagLabs">openSwagLabs</a> <!-- method navigator-link -->
@@ -128,6 +133,13 @@
               <span class="class-name">testSuite.TestLaunchBrowser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCarAndCheckout">
+                  </a> <!-- AddToCarAndCheckout -->
+                  <span class="method-name">AddToCarAndCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="openSwagLabs">
@@ -196,15 +208,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'openSwagLabs')
+data.setCell(0, 1, 'AddToCarAndCheckout')
 data.setCell(0, 2, 'testSuite.TestLaunchBrowser')
-data.setCell(0, 3, 1090);
+data.setCell(0, 3, 879);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectCargo')
+data.setCell(1, 1, 'openSwagLabs')
 data.setCell(1, 2, 'testSuite.TestLaunchBrowser')
-data.setCell(1, 3, 433);
+data.setCell(1, 3, 736);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectCargo')
+data.setCell(2, 2, 'testSuite.TestLaunchBrowser')
+data.setCell(2, 3, 148);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
@@ -242,20 +258,23 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openSwagLabs</span>
-                <span class="method-start">29217 ms</span>
+                <span class="method-start">17230 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectCargo</span>
-                <span class="method-start">30312 ms</span>
+                <span class="method-start">17978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddToCarAndCheckout</span>
+                <span class="method-start">18126 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30745 ms</span>
+                <span class="method-start">19005 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
-    </div>
   </body>
 </html>

@@ -1,0 +1,6 @@
+completeHeader:
+  type: className
+  value: complete-header
+backHome:
+  type: id
+  value: back-to-products

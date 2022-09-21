@@ -1,15 +1,15 @@
 package workflow;
 
-import elements.InventoryPage;
+import elements.InventoryPageObject;
 import org.openqa.selenium.WebDriver;
 
-public class WorkflowInventoryPage {
-    public WebDriver driver;
-    public InventoryPage inventoryPage;
+public class InventoryWorkflow {
+    public WebDriver webDriver;
+    public InventoryPageObject inventoryPage;
 
-    public WorkflowInventoryPage(WebDriver driver){
-        this.driver = driver;
-        inventoryPage = new InventoryPage(driver);
+    public InventoryWorkflow(WebDriver webDriver){
+        this.webDriver = webDriver;
+        inventoryPage = new InventoryPageObject(webDriver);
     }
 
     public void setFilter(){
@@ -17,6 +17,9 @@ public class WorkflowInventoryPage {
     }
     public void addToCart(){
         inventoryPage.addToCart();
+    }
+    public String cartNumbersValues(){
+        return inventoryPage.cartNumbers();
     }
     public String cargoName(){
         return inventoryPage.backpackTitle();

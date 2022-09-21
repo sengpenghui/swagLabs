@@ -1,17 +1,17 @@
 package workflow;
 
-import elements.LoginPage;
+import elements.LoginPageObject;
 import org.openqa.selenium.WebDriver;
 
-public class WorkflowLoginPage {
+public class LoginWorkflow {
     public WebDriver driver;
-    LoginPage loginPage;
-    public WorkflowLoginPage(WebDriver driver){
+    LoginPageObject loginPage;
+    public LoginWorkflow(WebDriver driver){
         this.driver = driver;
-        loginPage = new LoginPage(driver);
+        loginPage = new LoginPageObject(driver);
     }
     public void loginInput(){
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPageObject loginPage = new LoginPageObject(driver);
         loginPage.inputUserName();
         loginPage.inputPassword();
     }

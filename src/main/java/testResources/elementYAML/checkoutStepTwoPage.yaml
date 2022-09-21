@@ -1,0 +1,18 @@
+productPrice:
+  type: className
+  value: inventory_item_price
+itemTotal:
+  type: className
+  value: summary_subtotal_label
+tax:
+  type: className
+  value: summary_tax_label
+sumTotal:
+  type: className
+  value: summary_total_label
+cancel:
+  type: id
+  value: cancel
+finish:
+  type: name
+  value: finish

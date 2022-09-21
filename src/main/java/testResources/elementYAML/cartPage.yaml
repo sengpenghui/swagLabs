@@ -1,0 +1,21 @@
+productName:
+  type: css
+  value: ".inventory_item_name"
+checkout:
+  type: id
+  value: checkout
+productPrice:
+  type: className
+  value: inventory_item_price
+continueShopping:
+  type: name
+  value: continue-shopping
+cartItems:
+  type: className
+  value: cart_item
+inventoryItemName:
+  type: className
+  value: inventory_item_name
+cartRemove:
+  type: css
+  value: ".cart_item button"

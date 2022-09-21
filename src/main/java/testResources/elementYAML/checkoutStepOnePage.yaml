@@ -1,0 +1,15 @@
+firstName:
+  type: id
+  value: first-name
+lastName:
+  type: name
+  value: lastName
+postalCode:
+  type: id
+  value: postal-code
+cancel:
+  type: id
+  value: cancel
+continue:
+  type: name
+  value: continue

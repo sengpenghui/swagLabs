@@ -13,3 +13,6 @@ backpackCart:
 backpackRemove:
   type: css
   value: '#remove-sauce-labs-backpack'
+cartNumbers:
+  type: css
+  value: '.shopping_cart_link'
